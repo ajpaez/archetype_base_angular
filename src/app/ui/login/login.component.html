@@ -1,0 +1,12 @@
+<div class="login-page">
+  <div *ngIf="logginStatus">
+    <div class="alert alert-success" role="alert">Logado</div>
+  </div>
+  <div class="form">
+    <form class="login-form">
+      <input type="text" placeholder="username" #username id="username-box" />
+      <input type="password" placeholder="password" #password id="password-box" />
+      <button (click)="login(username.value, password.value)">Login</button>
+    </form>
+  </div>
+</div>
