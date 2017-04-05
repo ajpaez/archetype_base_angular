@@ -6,7 +6,7 @@ import {HttpModule} from "@angular/http";
 
 import {Logger} from "angular2-logger/core";
 
-import {LoginComponent} from "../ui/page/login/login.component";
+import {LoginComponent} from "../ui/view/login/login.component";
 import {environment} from "../../environments/environment";
 
 @NgModule({
