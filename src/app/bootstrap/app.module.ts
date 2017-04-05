@@ -1,12 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import {isDevMode, NgModule} from '@angular/core';
-import { FormsModule } from '@angular/forms';
-import { HttpModule } from '@angular/http';
+import {BrowserModule} from "@angular/platform-browser";
+import {isDevMode, NgModule} from "@angular/core";
+import {FormsModule} from "@angular/forms";
+import {HttpModule} from "@angular/http";
 
 
-import { Logger } from "angular2-logger/core";
+import {Logger} from "angular2-logger/core";
 
-import { LoginComponent } from '../ui/login/login.component';
+import {LoginComponent} from "../ui/page/login/login.component";
 import {environment} from "../../environments/environment";
 
 @NgModule({

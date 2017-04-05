@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import {Login} from "../../dto/LoginDto";
-import {LoginService} from "../../services/login.service";
+import {Component, OnInit} from "@angular/core";
+import {Login} from "../../../dto/LoginDto";
+import {LoginService} from "../../../services/login.service";
 import {Logger} from "angular2-logger/core";
 
 
